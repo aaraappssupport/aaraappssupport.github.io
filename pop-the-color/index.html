@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pop The Color — Support</title>
+<meta name="description" content="Official support page for Pop The Color — an offline strategy puzzle game by AARA Apps.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root{
+    --bg:#f3f5fa; --surface:#ffffff; --text:#141a2e; --muted:#5a6280;
+    --accent:#2f6fe0; --accent-ink:#ffffff; --line:#e1e5ef; --shadow:0 1px 3px rgba(16,22,48,.07),0 8px 28px rgba(16,22,48,.06);
+    --mark:#1b2a52;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#0c1022; --surface:#141a30; --text:#e9ecf6; --muted:#9aa2bd;
+      --accent:#6ea6ff; --accent-ink:#0c1022; --line:#232b47; --shadow:0 1px 3px rgba(0,0,0,.4),0 8px 28px rgba(0,0,0,.3);
+      --mark:#22335f;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased;
+    display:flex; align-items:center; justify-content:center;
+    min-height:100vh; padding:24px 16px;
+  }
+  main{
+    background:var(--surface); border:1px solid var(--line); border-radius:18px;
+    box-shadow:var(--shadow); max-width:620px; width:100%; padding:40px 28px;
+  }
+  .mark{
+    width:60px; height:60px; border-radius:16px; background:var(--mark);
+    display:flex; align-items:center; justify-content:center; margin-bottom:22px;
+  }
+  .mark svg{width:40px; height:40px; display:block}
+  h1{font-size:1.75rem; line-height:1.25; margin:0 0 8px; letter-spacing:-.02em}
+  .tagline{margin:0 0 22px; color:var(--accent); font-weight:600; font-size:.95rem}
+  p{margin:0 0 18px; color:var(--muted)}
+  h2{font-size:.8rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin:30px 0 10px; font-weight:600}
+  h3{font-size:1rem; margin:18px 0 4px}
+  hr{border:0; border-top:1px solid var(--line); margin:30px 0}
+  a{color:var(--accent)}
+  .email{
+    display:inline-block; font-size:1.05rem; font-weight:600; color:var(--accent);
+    text-decoration:none; word-break:break-all;
+  }
+  .email:hover,.email:focus{text-decoration:underline}
+  .links{display:flex; flex-wrap:wrap; gap:12px; margin-top:8px}
+  .btn{
+    display:inline-block; padding:11px 20px; border-radius:10px; font-size:.92rem;
+    font-weight:600; text-decoration:none; background:var(--accent); color:var(--accent-ink);
+    border:1px solid var(--accent);
+  }
+  .btn.ghost{background:transparent; color:var(--accent)}
+  .btn:hover,.btn:focus{opacity:.88}
+  footer{margin-top:34px; padding-top:20px; border-top:1px solid var(--line); font-size:.82rem; color:var(--muted)}
+  @media (max-width:480px){
+    main{padding:30px 20px; border-radius:14px}
+    h1{font-size:1.5rem}
+    .btn{flex:1 1 100%; text-align:center}
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true">
+    <svg viewBox="0 0 40 40">
+      <rect x="5" y="5" width="13.5" height="13.5" rx="3.5" fill="#d55e00"></rect>
+      <rect x="5" y="21.5" width="13.5" height="13.5" rx="3.5" fill="#009e73"></rect>
+      <rect x="21.5" y="21.5" width="13.5" height="13.5" rx="3.5" fill="#0072b2"></rect>
+      <rect x="24.5" y="8" width="7.5" height="7.5" rx="2" fill="#f0e442"></rect>
+      <circle cx="28.25" cy="11.75" r="7" fill="none" stroke="#ffffff" stroke-width="1.4"></circle>
+    </svg>
+  </div>
+
+  <h1>Pop The Color</h1>
+  <p class="tagline">Plan your pops. Collect the color.</p>
+  <p>
+    Pop The Color is a free, offline strategy puzzle. Tap a group of two or more
+    touching tiles of the same color to pop it, collect the target color or shape the
+    board before your moves run out, and earn 3 stars by matching the shortest
+    solution — across 100 solver-checked levels in 10 worlds. No ads, no purchases,
+    no account.
+  </p>
+
+  <h2>Support</h2>
+  <p>Questions, feedback or a problem with the game? Email us and we'll get back to you.
+    Please mention your phone model and the level number if it's about a specific level.</p>
+  <a class="email" href="mailto:aara.apps.support@gmail.com?subject=Pop%20The%20Color">aara.apps.support@gmail.com</a>
+
+  <h2>Common questions</h2>
+  <h3>Where is my progress saved?</h3>
+  <p>Only on your device. Uninstalling the game (or clearing its data on Android) erases it.
+    On iPhone, your device's iCloud or computer backup includes it like other app data.</p>
+  <h3>Is every level possible?</h3>
+  <p>Yes. Every board is fixed and was checked by a solver; 3 stars means you matched the
+    shortest solution. If you're stuck, restart: a level always plays the same way.</p>
+  <h3>Where can I see my best results?</h3>
+  <p>Open My Records from the title screen: best stars and best moves for every level you
+    have completed, plus totals. Tap a level card in the level list for its best time.</p>
+
+  <hr>
+
+  <div class="links">
+    <a class="btn" href="mailto:aara.apps.support@gmail.com?subject=Pop%20The%20Color">Contact Support</a>
+    <a class="btn ghost" href="/pop-the-color-privacy/">Privacy Policy</a>
+  </div>
+
+  <footer>&copy; 2026 AARA Apps. All rights reserved.</footer>
+</main>
+</body>
+</html>

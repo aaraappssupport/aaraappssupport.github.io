@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy – Mementa by AARA Apps</title>
-<meta name="description" content="Privacy policy for Mementa, a reminder app for Android by AARA Apps. Mementa has no accounts, no analytics and no servers that receive your data.">
+<meta name="description" content="Privacy policy for Mementa, a reminder app for iPhone and Android by AARA Apps. Mementa has no accounts, no analytics and no servers that receive your data.">
 <style>
   :root { color-scheme: light dark; }
   * { box-sizing: border-box; }
@@ -50,11 +50,11 @@
 <body>
 
 <h1>Privacy Policy for Mementa</h1>
-<p class="meta"><strong>Effective date: 20 October 2026</strong><br>
+<p class="meta"><strong>Effective date: 25 October 2026</strong><br>
 Mementa is published by AARA Apps. It was previously named Lumora.</p>
 
-<p>Mementa is a reminder and personal organiser app for Android. This policy
-explains what Mementa does with your information. It is short because Mementa
+<p>Mementa is a reminder and personal organiser app for iPhone and Android.
+This policy covers both, and explains what Mementa does with your information. It is short because Mementa
 does very little with it.</p>
 
 <div class="lede">
@@ -65,14 +65,14 @@ does very little with it.</p>
   that hold it, no account system that identifies you, and no analytics,
   advertising or crash-reporting service that observes you.</p>
   <p>Two things can send data off the phone, and you control both: the optional
-  weather card, and Android’s own backup of your phone. Both are described
-  below.</p>
+  weather card, and your phone’s own backup (iCloud or a computer on iPhone,
+  Google on Android). Both are described below.</p>
 </div>
 
 <h2>What stays on your device</h2>
 <p>All of the following is stored in Mementa’s private storage on your phone.
 Mementa itself never sends it anywhere. The only copy that can leave the phone
-is Android’s own backup, described in the next section.</p>
+is your phone’s own backup, described in the next two sections.</p>
 <ul>
   <li>Reminders: titles, notes, dates, times, repeat rules, categories and priorities</li>
   <li>Anything you enter into a template’s fields, such as a medicine name and dose, or a passport number</li>
@@ -81,13 +81,16 @@ is Android’s own backup, described in the next section.</p>
   <li>Your theme, appearance, weather and notification preferences</li>
   <li>The last weather reading and the city you chose, if you use the weather card</li>
 </ul>
-<p>Android’s app sandbox protects this data: other apps cannot read it.</p>
-<p>If you add Mementa’s home-screen widget, it shows your upcoming reminders on
-your home screen, so anyone who can see your home screen can see them. You
-choose whether to add it.</p>
+<p>The operating system’s app sandbox, on iPhone and on Android, protects this
+data: other apps cannot read it.</p>
+<p>On Android, if you add Mementa’s home-screen widget, it shows your upcoming
+reminders on your home screen, so anyone who can see your home screen can see
+them. You choose whether to add it. The iPhone version has no widget.</p>
 
 <h2>Android backup</h2>
-<p>If backup is turned on for your phone, Android includes Mementa’s data in it,
+<p>This section applies to Android phones only; for iPhone, see the next
+section.</p>
+<p>If backup is turned on for your Android phone, Android includes Mementa’s data in it,
 as it does for other apps, so your reminders come back when you set up a new
 phone. This is Android’s feature, run by Google under your Google Account.
 Mementa does not send the data, and we have no way to access it.</p>
@@ -106,6 +109,17 @@ Mementa does not send the data, and we have no way to access it.</p>
     Google keeps only the most recent backup.</li>
 </ul>
 
+<h2>iPhone backup</h2>
+<p>If iCloud Backup is on, or you back up your iPhone to a computer, iOS
+includes Mementa’s data, as it does for other apps, so your reminders come back
+when you restore or set up a new iPhone. This is Apple’s feature, run under your
+Apple Account. Mementa does not send the data, and we have no way to access it.
+Google’s backup is not involved on iPhone. iCloud backups are encrypted; they are end-to-end encrypted, so that Apple
+cannot read them, only if you have turned on Advanced Data Protection. A backup
+to a computer is encrypted only if you choose <em>Encrypt local backup</em>. You
+can turn iCloud Backup off for your iPhone in Settings › your name › iCloud ›
+iCloud Backup.</p>
+
 <h2>The optional weather card</h2>
 <p>Mementa can show the current weather at the top of the Today screen. It is
 <strong>off until you choose a city</strong>, and you can turn it off at any
@@ -116,10 +130,13 @@ Weather</strong>.</p>
   <li>Mementa sends the coordinates of the city <strong>you selected from a
     list</strong> to <a href="https://open-meteo.com">Open-Meteo</a>
     (<code>api.open-meteo.com</code>), and receives the current temperature and
-    conditions. The coordinates are rounded to four decimal places.</li>
+    conditions. The coordinates are rounded to two decimal places, so they point
+    to an area of about a kilometre, not to an address. They are the city’s
+    coordinates, never your phone’s.</li>
   <li>While you search for your city, Mementa sends the text you type to
     Open-Meteo’s geocoding service (<code>geocoding-api.open-meteo.com</code>)
-    so it can offer matching places.</li>
+    so it can find your city and offer matching places. We do not store what
+    you type; it never reaches us.</li>
   <li>Mementa refreshes the reading at most every 30 minutes, and only while the
     Today screen is open and the app is in the foreground. If the service cannot
     be reached, the last reading stored on your phone is shown instead.</li>
@@ -129,6 +146,9 @@ Weather</strong>.</p>
     internet, Open-Meteo’s servers can see your phone’s IP address, and handle
     it under their own policy.</li>
   <li>The connection uses HTTPS.</li>
+  <li><strong>Nothing is stored by us.</strong> Mementa has no server, so
+    neither the city name nor the coordinates reach us. The only copy Mementa
+    keeps is on your phone: the city you chose and the last reading.</li>
 </ul>
 <p>When <strong>Show weather</strong> is off, or when no city has been chosen,
 Mementa makes no weather request at all. The one exception is the city search:
@@ -137,8 +157,11 @@ sent to Open-Meteo’s geocoding service whether or not the switch is on.</p>
 <p>Open-Meteo is an independent service with its own terms; see
 <a href="https://open-meteo.com/en/terms">open-meteo.com/en/terms</a>.</p>
 <p><strong>Mementa never asks for your device location.</strong> It holds no
-location permission of any kind. You tell it a city by name; the phone is never
-asked where it is.</p>
+location permission of any kind, on iPhone or on Android. You tell it a city by
+name; the phone is never asked where it is. Because the city’s rounded
+coordinates are sent, the App Store lists this as <em>Coarse Location</em>, and
+the city search text as <em>Search History</em>, both used for app
+functionality, not linked to you and not used for tracking.</p>
 
 <h2>What Mementa does not do</h2>
 <ul>
@@ -153,6 +176,14 @@ asked where it is.</p>
 </ul>
 
 <h2>Permissions, and why each exists</h2>
+<p><strong>On iPhone,</strong> Mementa asks for one permission:</p>
+<div class="wrap">
+<table>
+  <tr><th scope="col">Permission</th><th scope="col">Why Mementa needs it</th></tr>
+  <tr><td>Notifications</td><td>To deliver your reminders, with their alert and sound. Without it nothing arrives. Reminders for medicine, meetings, money (bills, payments, salary, tax and insurance), doctor appointments, blood pressure and sugar checks, annual check-ups and travel are sent as Time Sensitive, so they can show during a Focus. A reminder set to Low priority is delivered quietly instead, and High or Critical priority does not make other reminders Time Sensitive. You can turn Time Sensitive notifications off in Settings › Notifications › Mementa.</td></tr>
+</table>
+</div>
+<p><strong>On Android,</strong> Mementa uses these:</p>
 <div class="wrap">
 <table>
   <tr><th scope="col">Permission</th><th scope="col">Why Mementa needs it</th></tr>
@@ -163,41 +194,46 @@ asked where it is.</p>
   <tr><td>Internet</td><td>The optional weather card only. Nothing else in Mementa uses the network.</td></tr>
 </table>
 </div>
-<p>Your phone may also list <em>keep the device awake</em>, <em>view network
+<p>Your Android phone may also list <em>keep the device awake</em>, <em>view network
 connections</em> and <em>run foreground service</em>. Mementa does not request
 these itself: they come from Android’s own WorkManager library, which keeps the
 home-screen widget up to date. Mementa starts no foreground service and uses
 none of these three to collect anything.</p>
 
 <h2>Children</h2>
-<p>Mementa is not directed at children under 13 and collects no data from anyone,
-including children.</p>
+<p>Mementa is not directed at children under 13. We receive no data from anyone,
+including children; the weather card’s city coordinates go to Open-Meteo, not
+to us.</p>
 
 <h2>Your data rights</h2>
 <p>We never receive your data, so there is nothing for us to retrieve, correct,
 export or delete on your behalf. We have no copy.</p>
 <ul>
-  <li><strong>To delete everything on the phone:</strong> uninstall Mementa, or
-    use Android’s <strong>Settings → Apps → Mementa → Storage → Clear
-    storage</strong>.</li>
+  <li><strong>To delete everything on the phone:</strong> uninstall Mementa. On
+    iPhone, press and hold its icon and choose <strong>Remove App › Delete
+    App</strong>. On Android you can also use <strong>Settings → Apps → Mementa
+    → Storage → Clear storage</strong>.</li>
+  <li><strong>If iCloud Backup is on (iPhone),</strong> a copy also exists in
+    your iCloud backup until that backup is replaced or deleted, in Settings ›
+    your name › iCloud › Manage Account Storage › Backups.</li>
   <li><strong>If Android backup is on,</strong> a copy also exists in your Google
     Account’s backup. Delete it, or turn backup off, from your phone’s backup
     settings or your Google Account.</li>
   <li><strong>Note:</strong> Mementa itself offers no export or cloud sync.
-    Without Android backup, uninstalling deletes your reminders permanently and
-    they cannot be recovered.</li>
+    Without your phone’s backup, uninstalling deletes your reminders permanently
+    and they cannot be recovered.</li>
 </ul>
 
 <h2>Data retention</h2>
 <p>Your data is kept on your device for as long as you keep the app installed,
-and is destroyed when you uninstall it or clear its storage. If Android backup
-is on, Google keeps the most recent backup in your Google Account under its own
+and is destroyed when you uninstall it or clear its storage. If your phone’s
+backup is on, Apple (iCloud) or Google keeps your backups under its own
 retention rules. We hold nothing, so we retain nothing.</p>
 
 <h2>Security</h2>
 <p>Mementa contains no API keys, tokens, passwords or other secrets. Data is held
-in Android’s private per-app storage, isolated from other apps by the operating
-system. All network traffic (the weather card alone) uses HTTPS.</p>
+in the app’s private storage on iPhone or Android, isolated from other apps by
+the operating system. All network traffic (the weather card alone) uses HTTPS.</p>
 
 <h2>Changes to this policy</h2>
 <p>If this policy changes, the effective date above changes with it. If a future

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mementa: Smart Reminders – Support</title>
+<meta name="description" content="Support for Mementa: Smart Reminders by AARA Apps.">
+<style>
+  :root {
+    --bg: #f2f3f8;
+    --ink: #12121a;
+    --muted: #5a5b6e;
+    --mint: #a9ecce;
+    --lilac: #c9bbff;
+    --card: #ffffff;
+    --link: #3a2fd0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14141c;
+      --ink: #f2f2f8;
+      --muted: #a9aabf;
+      --card: #1f1f2b;
+      --link: #b3a9ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Bricolage Grotesque", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    padding: 40px 18px 56px;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  .hero {
+    background: var(--mint);
+    color: #12121a;
+    border-radius: 32px;
+    padding: 36px 32px 32px;
+  }
+  .hero h1 {
+    margin: 0;
+    font-size: clamp(2.6rem, 11vw, 4rem);
+    line-height: 1;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero p { margin: 12px 0 0; font-size: 1.15rem; font-weight: 600; }
+  .block { margin-top: 18px; background: var(--card); border-radius: 28px; padding: 28px 30px; }
+  .block.lilac { background: var(--lilac); color: #12121a; }
+  h2 { margin: 0 0 8px; font-size: 1.3rem; letter-spacing: -0.01em; }
+  h3 { margin: 22px 0 4px; font-size: 1.02rem; }
+  p { margin: 0 0 12px; }
+  .muted { color: var(--muted); }
+  .block.lilac .muted { color: #3b3856; }
+  a { color: var(--link); }
+  .block.lilac a { color: #1c1470; }
+  a:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+  .btn {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 13px 24px;
+    border-radius: 999px;
+    background: #12121a;
+    color: #ffffff !important;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .btn:focus-visible { outline-color: #12121a; }
+  footer { margin: 28px 6px 0; color: var(--muted); font-size: 0.9rem; }
+  @media (max-width: 480px) {
+    .hero { padding: 28px 22px 26px; }
+    .block { padding: 24px 22px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <h1>Mementa</h1>
+    <p>Smart Reminders</p>
+  </section>
+
+  <section class="block">
+    <h2>About the app</h2>
+    <p>Mementa turns the things you mean to remember into reminders in a few taps. Pick a template for medicine, bills, renewals or travel, set the date and time, and save. Your reminders, notes and history stay on your device.</p>
+  </section>
+
+  <section class="block lilac">
+    <h2>Get help</h2>
+    <p>Questions, feedback or a problem with the app? Email us and we’ll get back to you. Please include your iPhone model and iOS version.</p>
+    <a class="btn" href="mailto:aara.apps.support@gmail.com?subject=Mementa%20support">Email support</a>
+    <p class="muted" style="margin-top:14px;">aara.apps.support@gmail.com</p>
+  </section>
+
+  <section class="block">
+    <h2>Common questions</h2>
+
+    <h3>A reminder didn’t reach me</h3>
+    <p>Open <strong>More → Reminder reliability</strong> in Mementa. It checks that notifications, alerts and sounds are on, takes you to Settings if one is off, and can send a test reminder in 60 seconds. Also check that a Focus mode isn’t silencing Mementa.</p>
+
+    <h3>How do I delete my reminders?</h3>
+    <p>Delete a reminder inside the app, or delete the app to remove everything stored on your iPhone. If you back up your iPhone to iCloud or a computer, that backup may still hold a copy until you remove the backup.</p>
+
+    <h3>What does the weather card send?</h3>
+    <p>The weather card is optional and stays off until you choose a city. The city you search for and its rounded coordinates are sent to the free Open-Meteo service to fetch the forecast. Nothing else leaves your device. Weather data by <a href="https://open-meteo.com/">Open-Meteo.com</a>.</p>
+
+    <h3>Where is my data stored?</h3>
+    <p>On your iPhone. Mementa has no account, no ads and no analytics. Read the full <a href="https://aaraappssupport.github.io/mementa-privacy/">privacy policy</a>.</p>
+  </section>
+
+  <footer>© 2026 AARA Apps. All rights reserved.</footer>
+</main>
+</body>
+</html>
